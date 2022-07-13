@@ -1,1 +1,1 @@
-image: gitpod/workspace-mysql
+image: gitpod/workspace-mysql:2022-07-13-11-16-09
