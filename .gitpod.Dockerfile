@@ -1,1 +1,1 @@
-FROM gitpod/workspace-mysql
+FROM gitpod/workspace-mysql:2022-07-13-11-16-09
