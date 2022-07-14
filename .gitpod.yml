@@ -1,2 +1,15 @@
-image: 
-  file: .gitpod.Dockerfile
+tasks:
+  - name: Teminal 1
+    before: echo 'before script'
+    init: echo 'start script'
+    command: echo 'start script'
+  - name: Terminal 2
+    init: npm install
+    command: npm run dev
+  - name: Terminal 3
+    init: echo 'this is terminal 3'
+    command: echo 'hello form terminal 3'
+
+ports:
+  - port: 3000
+    onOpen: open-preview
